@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle</title>
+</head>
+<body>
+  <div class="wrapper">
+  <p><img src="./Sun.png"></p>
+
+    <div class="round"></div>
+  <p><img src="./moon.png"></p>  
+  </div>
+    <script src="main.js"></script>
+
+    <style>
+
+      body{
+        padding: 20%;
+      }
+      .wrapper{
+        background: black;
+        height: 30px;
+        width: 80px;
+        position: relative;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 20px;
+
+      }
+      .round{
+        background: white;
+        height: 30px;
+        width: 40px;
+        border-radius: 50%;
+        position: absolute;
+        left: -3px;
+      }
+
+      .switch{
+        left: 50%;
+      }
+
+      img{
+        width: 20px;
+      }
+    </style>
+</body>
+</html>
